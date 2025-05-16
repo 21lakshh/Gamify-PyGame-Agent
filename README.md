@@ -26,10 +26,10 @@
 ## 🚀 Getting Started
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone https://github.com/21lakshh/Gamify-PyGame-Agent.git
    cd Gamify-PyGame-Agent
-    ```
+ ```
 
 2. Install required packages:
 
