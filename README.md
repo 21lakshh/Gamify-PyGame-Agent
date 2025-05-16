@@ -1,35 +1,36 @@
 # 🎮 Gamify-PyGame-Agent
 
-**Gamify-PyGame-Agent** is an AI-powered interactive web application that generates, edits, and runs PyGame visualizations from natural language prompts. It enables users to prototype visual simulations using PyGame effortlessly through a Streamlit interface powered by Google Gemini.
+**Gamify-PyGame-Agent** is an interactive AI-powered web application that enables users to create and run PyGame visualizations from natural language descriptions. With the help of Google Gemini and a seamless Streamlit interface, anyone can prototype games, simulations, or animations quickly—no advanced coding skills required.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-### 🧠 AI-Powered Code Generation
-- Convert natural language descriptions into PyGame code
-- Real-time intelligent code generation and auto-suggestions
-- Smart fallback mechanisms and error-handling logic
+### 🤖 AI-Driven Game Code Generation
+- Turn plain English into fully functional PyGame code
+- Leverage Google Gemini for accurate and context-aware code generation
+- Separates reasoning, explanation, and final code for transparency
 
-### 💻 Interactive Development Environment
-- Built-in live code editor with syntax highlighting
-- Debug console for error reporting and tracebacks
-- One-click download of generated or edited code
+### 💡 Interactive Streamlit Interface
+- Intuitive sidebar for API setup and user prompts
+- Live editable code blocks with syntax highlighting
+- Test and debug code before launching the final visualization
 
-### 🧪 Game Testing & Debugging
-- Instant test-run button to validate PyGame code
-- Persistent display of debug and error information
-- Automatic PyGame window handling with graceful cleanup
+### 🧪 Debugging & Error Handling
+- Built-in "Test Run" feature to validate code before full execution
+- Captures tracebacks and displays meaningful debug messages
+- Handles PyGame windows cleanly and gracefully
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
+### 1. Clone the Repository
+
 ```bash
-   git clone https://github.com/21lakshh/Gamify-PyGame-Agent.git
-   cd Gamify-PyGame-Agent
- ```
+git clone https://github.com/21lakshh/Gamify-PyGame-Agent.git
+cd Gamify-PyGame-Agent
+```
 
 2. Install required packages:
 
@@ -53,9 +54,11 @@ streamlit run pygamebuilder.py
 ## 🎮 How to Use
 
 ### 1. Generating Code
-- Enter your PyGame visualization query in the text area
-- Example: "Create a particle system simulation where 100 particles emit from the mouse position and respond to keyboard-controlled wind forces"
+- Describe the visualization or simulation you want.
+- Example: "Create a simple bouncing ball simulation with gravity and elastic collision on window borders."
 - Click "Generate Code" to create the PyGame implementation
+- 🧠 Reasoning: Explanation of how the AI interpreted your prompt
+- 🧾 Final Code: The full PyGame implementation
 
 ### 2. Editing and Testing
 - Review the generated code in the expandable code section
@@ -79,27 +82,6 @@ Gamify/
 ├── README.md          # This documentation
 └── requirements.txt   # Project dependencies
 ```
-
-### Key Components
-1. **Code Generation**
-   - Uses Gemini AI for natural language to code conversion
-   - Handles code extraction and formatting
-   - Provides fallback mechanisms for error cases
-
-2. **Game Execution**
-   - Manages PyGame initialization and cleanup
-   - Handles window creation and event loops
-   - Provides error handling and debugging
-
-3. **User Interface**
-   - Streamlit-based web interface
-   - Real-time code editing and testing
-   - Persistent state management
-
-### Getting Help
-- Check the debug information in the application
-- Review error messages and tracebacks
-- Use the test run feature to identify issues
 
 ## 🤝 Contributing
 
